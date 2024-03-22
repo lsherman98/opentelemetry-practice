@@ -19,6 +19,7 @@
     "@opentelemetry/plugin-http": "^0.16.0",
     "@opentelemetry/plugin-https": "^0.16.0",
     "@opentelemetry/tracing": "^0.16.0",
+    "axios": "^1.6.8",
     "express": "^4.17.1"
   }
 }
