@@ -1,0 +1,22 @@
+{
+  "name": "opentelemetry-tutorial",
+  "version": "1.0.0",
+  "description": "OpenTelemetry Practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/core": "^1.22.0",
+    "@opentelemetry/exporter-zipkin": "^1.22.0",
+    "@opentelemetry/node": "^0.24.0",
+    "@opentelemetry/plugin-express": "^0.15.0",
+    "@opentelemetry/plugin-http": "^0.18.2",
+    "@opentelemetry/plugin-https": "^0.18.2",
+    "@opentelemetry/tracing": "^0.24.0",
+    "express": "^4.19.1"
+  }
+}
